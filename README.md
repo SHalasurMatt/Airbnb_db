@@ -1,7 +1,7 @@
 
 
 ```markdown
-# 🏡 Airbnb Database Schema & Analytics
+🏡 Airbnb Database Schema & Analytics
 
 This repository provides a **full-featured simulation of an Airbnb-style property rental database**, designed for **SQL Server**.  
 It includes a **highly normalized schema**, **robust business logic** (procedures and functions), and a **rich set of example queries** for analytical insight.  
@@ -10,7 +10,7 @@ Use this project for learning **relational data design**, **ETL workflows**, and
 
 ---
 
-## 📦 Files Included
+ 📦 Files Included
 
 - **Airbnb_ERD.drawio.jpg**  
   Entity-Relationship Diagram – visual overview of all tables, relationships, and data flow.  
@@ -27,7 +27,7 @@ Use this project for learning **relational data design**, **ETL workflows**, and
 
 ---
 
-## 🏗️ Schema Highlights
+ 🏗️ Schema Highlights
 
 | Table              | Key Columns / Features         | Description                                                   |
 |--------------------|--------------------------------|---------------------------------------------------------------|
@@ -46,7 +46,7 @@ Use this project for learning **relational data design**, **ETL workflows**, and
 
 ---
 
-## 🛡️ Business Rules
+ 🛡️ Business Rules
 
 - Customers must be **≥ 13 years old**; Hosts **≥ 21 years old**.  
 - Listing prices are capped at **$1,000**.  
@@ -57,7 +57,7 @@ Use this project for learning **relational data design**, **ETL workflows**, and
 
 ---
 
-## ⚙️ ETL / Population Procedures
+ ⚙️ ETL / Population Procedures
 
 Wrapper procedures streamline data loading via raw staging tables:  
 
@@ -72,7 +72,7 @@ These automate **bulk population** and **transform logic** for demo data.
 
 ---
 
-## 📊 Example Analytics Queries
+ 📊 Example Analytics Queries
 
 The project includes several pre-built queries for analysis:
 
@@ -90,13 +90,13 @@ All queries are provided as **commented blocks** in the SQL script.
 
 ---
 
-## 🖼️ Entity-Relationship Diagram
+ 🖼️ Entity-Relationship Diagram
 
 ![ERD](Airbnb_ERD.drawio.jpg)
 
 ---
 
-## 🚀 Quick Start
+ 🚀 Quick Start
 
 1. **Create your SQL Server database** → `Airbnb_db`  
 2. **Run** `Airbnb_Code.sql` → builds schema, rules, reference data, and loads demo data  
